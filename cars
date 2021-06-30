@@ -1,0 +1,19 @@
+
+
+id_auto          PRIMARY KEY UNIQUE NOTNULL AUTOICREMENT
+marca            VACHAR(20) NOTNULL
+modello          VARCHAR(40) NOTNULL
+cilindrata       TINYINT NOTNULL
+kw               TINYINT NOTNULL  
+trazione         VARCHAR(10) NOTNULL   
+prezzo           FLOAT(6,2) NOTNULL
+alimentazione    VARCHAR(15) NOTNULL
+colore           VARCHAR(20) NULL
+porte            TINYINT NULL
+lunghezza        SMALLINT NULL
+larghezza        SMALLINT NULL
+altezza          SMALLINT NULL
+anno_produzione  VARCHAR(4) NULL
+consumo_medio    FLOAT(2,2) NULL
+emissioni        SMALLINT  NULL
+
